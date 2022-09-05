@@ -1,0 +1,29 @@
+.btn-triangle {
+  position: relative;
+
+
+  &::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-left: 16px solid transparent;
+    border-bottom: 16px solid $primary;
+
+  }
+  &:hover::before{
+    border-bottom: 16px solid #000;
+  }
+}
+
+.card-btn{
+  .btn-outline-primary{
+  color: $black;
+  &:hover{
+    color: $white;
+  }
+}
+}
+
+
+
