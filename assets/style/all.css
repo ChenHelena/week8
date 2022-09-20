@@ -35,10 +35,12 @@
 
 .card-btn .btn-outline-primary {
   color: #000;
+  border-color: transparent;
 }
 
 .card-btn .btn-outline-primary:hover {
   color: #fff;
+  border: 1px solid #000;
 }
 
 .btn-outline-primary {
@@ -14426,6 +14428,12 @@ body {
   }
 }
 
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    background-color: #fff;
+  }
+}
+
 .grid {
   margin-left: -12px;
   margin-right: -12px;
@@ -14451,6 +14459,11 @@ body {
 
 .navs-and-tabs .nav-link {
   color: #808080;
+}
+
+.icon-hover:hover {
+  color: #E6553B;
+  cursor: pointer;
 }
 
 @media (min-width: 1200px) {
