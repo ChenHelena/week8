@@ -3,8 +3,10 @@
 @import "./helpers/buttons";
 @import "../../../node_modules/bootstrap/scss/utilities";
 @import "./helpers/utilities";
+@import "./helpers/swiper";
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 @import "./helpers/base";
-@import './layout/index.scss'
+@import "./layout/index.scss";
+@import "./layout/page";

@@ -9,21 +9,57 @@
     bottom: 0;
     border-left: 16px solid transparent;
     border-bottom: 16px solid $primary;
-
   }
-  &:hover::before{
+
+  &:hover::before {
     border-bottom: 16px solid #000;
   }
+
+  &-topRight {
+    &::before {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-left: 16px solid transparent;
+      border-top: 16px solid $black;
+    }
+  }
+
+  &-topLeft {
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-right: 16px solid transparent;
+      border-top: 16px solid $black;
+    }
+  }
+
+
+
 }
 
-.card-btn{
-  .btn-outline-primary{
-  color: $black;
-  &:hover{
-    color: $white;
+
+.card-btn {
+  .btn-outline-primary {
+    color: $black;
+    border-color: transparent;
+
+    &:hover {
+      color: $white;
+      border: 1px solid #000;
+    }
   }
 }
+
+.btn-outline-primary {
+  color: $black;
+
+
+  &:hover {
+    color: $white;
+
+  }
 }
-
-
-
