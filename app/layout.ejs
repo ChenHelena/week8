@@ -23,13 +23,21 @@
   <div class="wrapper">
     <nav class="navbar navbar-expand-lg bg-light py-0 border-bottom mb-6">
       <div class="container-fluid container-lg navbar-show block px-0">
-        <a class="navbar-brand flex-grow-1 py-lg-5 py-3 border-end-lg me-0 ps-md-0 ps-2" href="index.html">
-          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/logo.svg"
-            alt="logo" class="logo">
+        <a class="navbar-brand py-lg-5 py-3 me-0 ps-md-0 ps-2 font-squada" href="index.html">
+          <p style="font-size:2rem !important;color:#857d71">SeatArtistry</p>
         </a>
         <div class="d-flex pe-md-0 pe-2">
           <a class="nav-link py-3 d-lg-none d-block searchBtn" aria-current="page" href="#">
             <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <a class="nav-link py-3 searchBtn d-lg-block d-none" aria-current="page" href="#">
+            Home
+          </a>
+          <a class="nav-link py-3 searchBtn d-lg-block d-none" aria-current="page" href="#">
+            News
+          </a>
+          <a class="nav-link py-3 searchBtn d-lg-block d-none" aria-current="page" href="#">
+            About
           </a>
           <button class="navbar-toggler pe-0" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -40,31 +48,12 @@
         </div>
         <div class="collapse navbar-collapse flex-grow-0 text-center border-top border-lg-0" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-2">
-            <li class="nav-item d-none d-lg-block border-end-lg">
-              <form class="d-flex ps-7" role="search">
-                <input class="form-control border-0 py-6" type="search" placeholder="搜尋作品名稱、藝術家名稱" aria-label="Search"
-                  size="25">
-                <a class="nav-link py-6 pe-7" aria-current="page" href="#">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
-              </form>
+            <li class="nav-item">
+              <a class="nav-link active py-3 fs-18 border-lg-0 border-bottom" aria-current="page"
+                href="page.html">Login</a>
             </li>
-            <li class="nav-item border-end-lg">
-              <a class="nav-link active  py-lg-6 py-4 px-7 fs-lg-16 fs-18 border-lg-0 border-bottom" aria-current="page"
-                href="page.html">探索</a>
-            </li>
-            <li class="nav-item border-end-lg">
-              <a class="nav-link  py-lg-6 py-4 px-7 fs-lg-16 fs-18" href="#">市值</a>
-            </li>
-            <li class="nav-item d-none d-lg-block">
-              <a class="nav-link  py-lg-6 py-4 ps-7" href="#">
-                <i class="fa-solid fa-wallet"></i>
-              </a>
-            </li>
-            <li class="nav-item d-lg-none d-block">
-              <a class="nav-link" href="#">
-                <button type="button" class="btn btn-primary text-white fs-18 py-2 w-100 border-black">連結錢包</button>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link py-3 fs-18" href="#">Carts</a>
             </li>
           </ul>
 
@@ -90,7 +79,7 @@
   </div>
   <footer class="footer bg-light py-1 text-center border-top">
     <div class="border-4"></div>
-    <h6 class="my-4">© ART NFT. All Rights Reserved</h6>
+    <h6 class="my-4">© SeatArtistry. All Rights Reserved</h6>
   </footer>
 
   <script src="./assets/js/vendors.js"></script>
