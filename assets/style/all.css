@@ -14366,12 +14366,10 @@ body {
   }
   .mySwiper .swiper-slide-next,
   .mySwiper .swiper-slide-prev {
-    height: 262px !important;
     width: 306px !important;
   }
   .mySwiper .swiper-slide-next .artist-img,
   .mySwiper .swiper-slide-prev .artist-img {
-    height: 262px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
   }
